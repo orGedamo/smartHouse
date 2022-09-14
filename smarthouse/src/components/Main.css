@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    display: block;
+}
+  
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(44, 41, 41, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.videoH1{
+    font-weight: lighter;
+}
+  
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+  
+#myBtn:hover {
+    background: transparent;
+    border: black solid 1px;
+}
+
+.singInContainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 43, 80);
+    height: 100vh;
+    align-items: center;
+}
+
+.singInImg{
+    background-image: url('../images/SMARTHOME-SECURITY.webp');
+    background-repeat: no-repeat;
+    height:400px;
+    width: 500px;
+}
+
+.singInDiv{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border: 5px rgb(236, 230, 230) solid;
+    padding: 20px;
+    background-color: rgb(27, 60, 96);
+}
+
+.singInInput{
+    height: 30px;
+    width: 300px;
+    background-color:transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.singInInput::placeholder{
+    text-align: center;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: white 1px solid;
+    color: white;
+}
+
+.homeP{
+    text-align: center;
+    background-image: url('../images/smart3.jpg');
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header{
+    font-size: 20px;
+    color: black;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Trocchi', serif;
+    width: 400px;
+    /* text-decoration: underline; */
+    border-bottom: white 3px ridge;
+    transform: rotate(-90deg) translateX(-50%);
+    transform-origin: left top;
+    position: fixed;
+    display: block;
+    top: 50%;
+    left: 0;
+}
+
+#headerHome{
+    font-size: 20px;
+    color: black;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Trocchi', serif;
+    width: 500px;
+    border-bottom: white 3px ridge;
+    border-radius: 2px;
+}
+
+#homeBtn{
+    text-align: left;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-right: 200px;
+}
+
+#roomDiv{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#roomSqr{
+    margin: 25px;
+    height: 150px;
+    width: 150px;
+    flex-direction: row;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 50%;
+    color: black;
+    padding-top: 12.5%;
+    /* text-decoration: none; */
+}
+
+.addP{
+    text-align: center;
+    background-color: rgb(8, 43, 80);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#inpt{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#inpt::placeholder{
+    color: black;
+    text-align: center;
+}
+
+#inptColor{
+    /* border: none; */
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+}
+
+#RoomPDiv{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-bottom: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    height: 112.92px;
+    width: 500px;
+    display: inline-flex;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.closeRoom{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+}
+
+.closeRoom:hover{
+    text-decoration: underline;
+}
+
+.closeRoom:link{
+    text-decoration: none;
+    color: initial;
+}
+
+#divH{
+    margin-left: 50px;
+}
+
+#divH2{
+    margin-right: 50px;
+}
+
+#midDiv{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* margin: 25px; */
+    text-align: center;
+}
+
+#RPBtn{
+    margin-top: 50px;
+}
+
+
+/* #addDiv{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 70%;
+} */
+
+.addRoomContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 60px;
+}
+
+.roomInfo{
+    border: 5px rgb(236, 230, 230) solid;
+    /* padding: 20px;
+    padding-top: -30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 50px;
+    margin-top: 30px;
+    height: 400px;
+    width: 500px;
+    /* padding: 20px; */
+    background-color: rgb(27, 60, 96);
+}
+
+.addRommImg{
+    background-image: url('../images/smartR.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 520px;
+    height:400px;
+    width: 500px;
+}
+
+#select{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(27, 60, 96);
+    margin-bottom: 20px;
+    /* margin-top: 100px; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+#addRoomBtn{
+    margin-top: 20px;
+}
+
+#dBtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+/* #deviceDiv{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 70%;
+} */
+
+.pop {
+    margin-top: 10px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .pop-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 20px;
+    width: 50%;
+  }
+
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#popBtn{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#popBtn:hover{
+    color:white;
+    border: white 1px solid;
+}
