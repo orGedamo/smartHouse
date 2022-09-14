@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/smartHouse/static/css/main.073c9b0a.css",
-    "main.js": "/smartHouse/static/js/main.85f31116.js",
+    "main.css": "/smartHouse/static/css/main.00e85cc6.css",
+    "main.js": "/smartHouse/static/js/main.843db98c.js",
     "static/js/787.fea5cc7c.chunk.js": "/smartHouse/static/js/787.fea5cc7c.chunk.js",
-    "static/media/logo.svg": "/smartHouse/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/smartV.mp4": "/smartHouse/static/media/smartV.b12ec8f700c352078ddc.mp4",
+    "static/media/smart3.jpg": "/smartHouse/static/media/smart3.ae551001b63f74f78b7b.jpg",
+    "static/media/smartR.webp": "/smartHouse/static/media/smartR.91560543be83cf186a36.webp",
+    "static/media/SMARTHOME-SECURITY.webp": "/smartHouse/static/media/SMARTHOME-SECURITY.25d5ffa53c13422f58bf.webp",
     "index.html": "/smartHouse/index.html",
-    "main.073c9b0a.css.map": "/smartHouse/static/css/main.073c9b0a.css.map",
-    "main.85f31116.js.map": "/smartHouse/static/js/main.85f31116.js.map",
+    "main.00e85cc6.css.map": "/smartHouse/static/css/main.00e85cc6.css.map",
+    "main.843db98c.js.map": "/smartHouse/static/js/main.843db98c.js.map",
     "787.fea5cc7c.chunk.js.map": "/smartHouse/static/js/787.fea5cc7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.85f31116.js"
+    "static/css/main.00e85cc6.css",
+    "static/js/main.843db98c.js"
   ]
 }
